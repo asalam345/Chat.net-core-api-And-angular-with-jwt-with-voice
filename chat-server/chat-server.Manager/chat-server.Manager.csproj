@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>chat_server.Manager</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\chat-server.Entity\chat-server.Entity.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.AspNetCore.Cors">
+      <HintPath>..\..\..\..\..\Asp.netCore\Angular9APICore\Angular9ASPNETCore2\bin\Microsoft.AspNetCore.Cors.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Abstractions">
+      <HintPath>..\chat-server.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
